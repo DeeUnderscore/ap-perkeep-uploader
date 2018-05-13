@@ -1,0 +1,53 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/activitystreams"
+    ],
+    "id": "https://localhost/Alice/outbox",
+    "type": "OrderedCollection",
+    "totalItems": 2,
+    "orderedItems": [
+        {
+            "id": "https://localhost/Alice/activities/1",
+            "type": "Create",
+            "actor": "https://localhost/Alice",
+            "published": "2010-01-01T00:10:00Z",
+            "to": [
+                "https://www.w3.org/ns/activitystreams#Public"
+            ],
+            "object": {
+                "id": "https://localhost/Alice/notes/1",
+                "type": "Note",
+                "content": "Hello, world!",
+                "to": [
+                    "https://www.w3.org/ns/activitystreams#Public"
+                ]
+            }
+        },
+        {
+            "type": "Like",
+            "id": "https://localhost/Alice/activities/2",
+            "actor": "http://example.org/profiles/joe",
+            "object": "https://localhost/bt_mcexample/notes/1",
+            "published": "2010-01-01T00:20:00Z"
+        },
+        {
+            "id": "https://localhost/Alice/activities/3",
+            "type": "Create",
+            "actor": "https://localhost/Alice",
+            "published": "2010-01-01T00:30:00Z",
+            "to": [
+                "https://www.w3.org/ns/activitystreams#Public"
+            ],
+            "object": {
+                "id": "https://localhost/Alice/notes/2",
+                "type": "Note",
+                "content": "test2",
+                "to": [
+                    "https://www.w3.org/ns/activitystreams#Public"
+                ]
+            }
+
+        }
+    ]
+        
+}

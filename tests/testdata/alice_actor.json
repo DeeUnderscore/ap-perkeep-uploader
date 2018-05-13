@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/activitystreams"
+    ],
+    "id": "https://localhost/Alice",
+    "inbox": "https://localhost/Alice/inbox",
+    "outbox": "https://localhost/Alice/outbox",
+    "preferredUsername": "Alice",
+    "name": "Alice",
+    "type": "Person"
+}

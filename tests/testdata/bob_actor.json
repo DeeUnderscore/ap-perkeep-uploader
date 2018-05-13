@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/activitystreams"
+    ],
+    "id": "https://localhost/bt_mcexample",
+    "inbox": "https://localhost/bt_mcexample/inbox",
+    "outbox": "https://localhost/bt_mcexample/outbox",
+    "preferredUsername": "bt_mcexample",
+    "name": "Bob Test McExample",
+    "type": "Person"
+}
